@@ -1,0 +1,85 @@
+:root{
+    --red:#3a57;
+    --darkblue:#1c1e33;
+    --lightblue:#25273e;
+    --white:#fff;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background: var(--darkblue);
+    font-family: system-ui;
+}
+.login{
+    background: var(--lightblue);
+    height: 450px;
+    width: 300px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    padding: 25px;
+    top: 50%;
+    box-shadow: 5px 4px 13pz 4px #00000052;
+}
+.input-1, .input-2{
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    background: transparent;
+    border: 1px solid var(--red);
+    border-radius: 25px;
+    background:url(../image/user.png);
+    background-size: 20px!important;
+    padding-left: 45px;
+    background-repeat: no-repeat!important;
+    colour: var(--white);
+    margin-bottom: 25px;
+    background-position: left 15px center!important; 
+}
+.input-2{
+    background: url(../image/Lock.png);
+}
+input[type="checkbox"]{
+    zoom:1.5;
+    float: left;
+    margin-top: 1px;
+    outline: none;
+}
+
+.rem{colour: var(--white); float: left;}
+.for{colour: var(--red); float: right;}
+.clearfix{clear: both;}
+.btn{
+    padding: 9px 11px;
+    font-size: 18px;
+    width: 100%;
+    border-radius: 25px;
+    border: none;
+    background: var(--red);
+    colour: var(--white);
+}
+
+.btn:hover{background: var(--white); colour: var(--red)}
+.bot{text-align: center;}
+.social{
+    background: white;
+    padding: 5px;
+    height: 25px;
+    width: 25px;
+    vertical-align: middle;
+    margin: 3px;
+}
+.social:hover{
+    background: var(--red);
+    colour: var(--white);
+    cursor: pointer;
+}
+
+.social::before{vertical-align: sub;}
+.faeye{
+    position: absolute;
+    right: 15px;
+    top: 9px;
+    colour: var(--white);
+}
